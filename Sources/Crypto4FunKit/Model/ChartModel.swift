@@ -1,6 +1,6 @@
 //
 //  ChartModel.swift
-//  CryptoNoob
+//  Crypto4FunKit
 //
 //  Created by Elliot Knight on 04/07/2022.
 //

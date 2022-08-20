@@ -1,6 +1,6 @@
 //
 //  CryptoCurrencyApi.swift
-//  CryptoNoob
+//  Crypto4FunKit
 //
 //  Created by Elliot Knight on 13/07/2022.
 //

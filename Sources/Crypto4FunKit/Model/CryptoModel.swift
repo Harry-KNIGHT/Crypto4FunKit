@@ -1,6 +1,6 @@
 //
 //  CryptoModel.swift
-//  MyWallet
+//  Crypto4FunKit
 //
 //  Created by Elliot Knight on 12/06/2022.
 //
