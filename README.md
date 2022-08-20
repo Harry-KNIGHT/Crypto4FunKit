@@ -7,9 +7,7 @@
 ## Authors
 
 - [@Harry-Knight](https://www.github.com/harry-knight)
-- [Elliot's LinkedIn](https://www.linkedin.com/in/elliot-knight-134679182/)
 - [@NylNeuville](https://github.com/NylNeuville)
-- [Nyl's LinkedIn](https://www.linkedin.com/in/nyl-neuville-427372210/)
 
 ## Formation
 
