@@ -15,22 +15,22 @@ public struct CurrencyChartResponse: Codable {
 	}
 	
 	public let prices, marketCaps, totalVolumes: [[Double]]
-	enum CodingKeys: String, CodingKey {
+	public enum CodingKeys: String, CodingKey {
 		case prices
 		case marketCaps = "market_caps"
 		case totalVolumes = "total_volumes"
 	}
 }
 
-enum TimeToShow: String, CaseIterable, Identifiable {
+public enum TimeToShow: String, CaseIterable, Identifiable {
 	case yearly = "365"
 	case weekly = "7"
 	case monthly = "31"
 	case max = "10_000"
-	var id: Self { self }
+	public var id: Self { self }
 }
 
-enum EpochUnixTime: String, CaseIterable {
+public enum EpochUnixTime: String, CaseIterable {
 	case day = "86400"
 	case week = "604800"
 	case month = "2419200"
