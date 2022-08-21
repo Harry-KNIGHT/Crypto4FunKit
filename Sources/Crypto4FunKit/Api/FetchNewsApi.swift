@@ -7,6 +7,7 @@
 
 import Foundation
 
+@available(macOS 12.0, *)
 public struct NewsApi {
 	
 	public static func fetchNews() async throws -> [NewsResponseElement] {

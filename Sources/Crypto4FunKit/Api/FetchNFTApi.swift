@@ -7,6 +7,7 @@
 
 import Foundation
 
+@available(macOS 12.0, *)
 public struct FetchNftApi {
 
 	public static func fetchNFT(_ timeRange: NftTimeRange) async throws -> [NFTModel]  {
