@@ -7,7 +7,7 @@
 
 *fetchCryptoCurrency()* function allows you to fetch 100 cryptocurrencies data as image, currentPrice, price percantage value (24h) and more.
 
-<img src="https://github.com/Harry-KNIGHT/Image-VideoForReadmes/blob/main/ezgif-1-940af80236.gif" height="400" />
+<img src="https://github.com/Harry-KNIGHT/Image-VideoForReadmes/blob/main/ezgif-1-940af80236.gif" />
 
 In your ViewModel, initialise a **@Published** empty array corresponsing to **CryptoCurrencyModel** for get the good type returning from the **fetchCryptoCurrency()** function.
 
