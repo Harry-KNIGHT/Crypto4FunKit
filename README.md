@@ -9,6 +9,8 @@
 <p float="left">
    <img src="https://github.com/Harry-KNIGHT/ImageGifVideoForReadme/blob/main/gifs/ChartViewGif.gif" width="300" height= "649"/>	
    <img src="https://github.com/Harry-KNIGHT/ImageGifVideoForReadme/blob/main/gifs/CryptoListViewGif.gif" width="300" height= "649"/>
+</p>
+<p float="left">
    <img src="https://github.com/Harry-KNIGHT/ImageGifVideoForReadme/blob/main/gifs/NFTlistgif.gif" width="300" height= "649"/>
    <img src="https://github.com/Harry-KNIGHT/ImageGifVideoForReadme/blob/main/gifs/NewsViewGif.gif" width="300" height= "649"/>
 </p>
