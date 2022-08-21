@@ -105,4 +105,4 @@ class FetchChartViewModel: ObservableObject, FetchChart {
 
 ![Logo](https://github.com/Harry-KNIGHT/ImageGifVideoForReadme/blob/main/Images/packageCrypto4FunKitbanniere.jpg)
 
-
+[Logo by J&MDesigner](https://www.instagram.com/jmdesignerofficiel/?hl=fr%2F)
