@@ -3,7 +3,6 @@
 
 **Crypto4FunKit is a Swift Package for people who want to implement easily cryptocurrencies and NFT informations, chart of the crypto's price, and news.**
 
-*fetchCryptoCurrency()* function allows you to fetch 100 cryptocurrencies data as image, currentPrice, price percantage value (24h) and more.
 <p float="left">
    <img src="https://github.com/Harry-KNIGHT/ImageGifVideoForReadme/blob/main/gifs/ChartViewGif.gif" width="300" height= "649"/>	
    <img src="https://github.com/Harry-KNIGHT/ImageGifVideoForReadme/blob/main/gifs/CryptoListViewGif.gif" width="300" height= "649"/>
@@ -14,6 +13,8 @@
 </p>
 
 ## FetchCrypto
+
+*fetchCryptoCurrency()* function allows you to fetch 100 cryptocurrencies data as image, currentPrice, price percantage value (24h) and more.
 
 In your ViewModel, initialise a **@Published** empty array corresponsing to **CryptoCurrencyModel** for get the good type returning from the **fetchCryptoCurrency()** function.
 
