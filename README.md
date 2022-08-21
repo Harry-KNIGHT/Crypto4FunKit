@@ -103,6 +103,6 @@ class FetchChartViewModel: ObservableObject, FetchChart {
 
 **Follow Swift Basics formation from Mickaël MAS Apple certified trainer for improve your swift learning: [Swift Basics Formation](https://www.apprendre-swiftui.fr/offre-swift-basics?sa=sa0025889476017fbbabc3366b1fa16ab30f469b99)**
 
-![Logo](https://user-images.githubusercontent.com/63256761/185762269-af1fd215-21bc-4072-baa3-8aa553955a28.png)
+![Logo](https://github.com/Harry-KNIGHT/ImageGifVideoForReadme/blob/main/Images/packageCrypto4FunKitbanniere.jpg)
 
 
