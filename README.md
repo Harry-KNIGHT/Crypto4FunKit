@@ -7,10 +7,11 @@
 
 *fetchCryptoCurrency()* function allows you to fetch 100 cryptocurrencies data as image, currentPrice, price percantage value (24h) and more.
 <p float="left">
-   <img src="https://github.com/Harry-KNIGHT/Image-VideoForReadmes/blob/main/ezgif-1-940af80236.gif" width="300" height= "649"/>
-	
-   <img src="https://github.com/Harry-KNIGHT/Image-VideoForReadmes/blob/main/NFTViewGif.gif" width="300" height= "649"/>
-   <img src="https://github.com/Harry-KNIGHT/Image-VideoForReadmes/blob/main/NewsViewGif.gif" width="300" height= "649"/>
+   <img src="https://github.com/Harry-KNIGHT/ImageGifVideoForReadme/blob/main/gifs/ChartViewGif.gif" width="300" height= "649"/>	
+   <img src="https://github.com/Harry-KNIGHT/ImageGifVideoForReadme/blob/main/gifs/CryptoListViewGif.gif" width="300" height= "649"/>
+   <img src="https://github.com/Harry-KNIGHT/ImageGifVideoForReadme/blob/main/gifs/NFTlistgif.gif" width="300" height= "649"/>
+   <img src="https://github.com/Harry-KNIGHT/ImageGifVideoForReadme/blob/main/gifs/NFTlistgif.gif" width="300" height= "649"/>
+   <img src="https://github.com/Harry-KNIGHT/ImageGifVideoForReadme/blob/main/gifs/NewsViewGif.gif" width="300" height= "649"/>
 </p>
 
 In your ViewModel, initialise a **@Published** empty array corresponsing to **CryptoCurrencyModel** for get the good type returning from the **fetchCryptoCurrency()** function.
