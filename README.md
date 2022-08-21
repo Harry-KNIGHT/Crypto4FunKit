@@ -83,13 +83,12 @@ class FetchChartViewModel: ObservableObject, FetchChart {
 #### Then, you have to use use @EnvironmentObject for get your ViewModel data in prices array and use .task on your chart view. 
 
 ```
-
 .task {
-		do {
-			try await fetchChart.getChart(cryptoCurrency.id, from: Date().timeIntervalSince1970 - (Double(EpochUnixTime.month.rawValue) ?? 0))
-		} catch {
-			print("Error")
-		}
+	do {
+		try await fetchChart.getChart(cryptoCurrency.id, from: Date().timeIntervalSince1970 - (Double(EpochUnixTime.month.rawValue) ?? 0))
+	} catch {
+		print("Error")
+	}
 }
 ```
 
