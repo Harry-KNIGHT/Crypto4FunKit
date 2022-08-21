@@ -39,20 +39,20 @@ struct CryptoCurrencyListView: View {
 	@EnvironmentObject var crypto: CryptoViewModel
 
     var body: some View {
-		List {
-			ForEach(crypto.cryptoCurrencies, id: \.id) { crypto in
-				NavigationLink(destination: CurrencyChartView(cryptoCurrency: crypto)) {
-					CryptoListRowCellView(cryptoCurrency: crypto)
-				}
+	List {
+		ForEach(crypto.cryptoCurrencies, id: \.id) { crypto in
+			NavigationLink(destination: CurrencyChartView(cryptoCurrency: crypto)) {
+				CryptoListRowCellView(cryptoCurrency: crypto)
 			}
 		}
-		.task {
-			do {
-				try await crypto.getCryptos()
-			} catch {
-				print("Error \(error.localizedDescription)")
-			}
-		}
+	}
+	.task {
+	      do {
+			try await crypto.getCryptos()
+		} catch {
+			print("Error \(error.localizedDescription)")
+	    }
+	} 
     }
 }
 ```
