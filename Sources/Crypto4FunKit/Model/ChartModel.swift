@@ -8,7 +8,7 @@
 import Foundation
 
 /// Crypto chart model.
-public struct CurrencyChartResponse: Codable {
+public struct CurrencyChartModel: Codable {
 	internal init(prices: [[Double]], marketCaps: [[Double]], totalVolumes: [[Double]]) {
 		self.prices = prices
 		self.marketCaps = marketCaps

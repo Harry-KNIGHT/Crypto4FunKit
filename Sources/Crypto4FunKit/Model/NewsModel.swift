@@ -8,7 +8,7 @@
 import Foundation
 
 /// News model
-public struct NewsResponseElement: Hashable, Codable {
+public struct NewsModel: Hashable, Codable {
 	internal init(title: String, url: String, source: Source) {
 		self.title = title
 		self.url = url
@@ -25,5 +25,5 @@ public enum Source: String, Codable {
 	case cryptonewsNet = "cryptonews.net"
 }
 
-public typealias NewsResponse = [NewsResponseElement]
+public typealias NewsResponse = [NewsModel]
 

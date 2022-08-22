@@ -12,7 +12,7 @@ public struct NewsApi {
 
 	/// Fetch news about cryptocurrencies.
 	/// - Returns: [NewsResponseElement]
-	public static func fetchNews() async throws -> [NewsResponseElement] {
+	public static func fetchNews() async throws -> [NewsModel] {
 		let url = "https://cryptocurrency-news-tracker.herokuapp.com/news"
 
 		guard let url = URL(string: url) else {
@@ -26,7 +26,7 @@ public struct NewsApi {
 		}
 
 		do {
-			 return try JSONDecoder().decode([NewsResponseElement].self, from: data)
+			 return try JSONDecoder().decode([NewsModel].self, from: data)
 		} catch {
 			throw error
 		}
