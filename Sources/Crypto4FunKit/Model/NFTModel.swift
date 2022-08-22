@@ -8,6 +8,7 @@
 import Foundation
 
 // MARK: - NFTResponseElement
+/// NFT model.
 public struct NFTModel: Codable, Identifiable, Hashable {
     public let id = UUID()
     public let rank: Int
@@ -31,6 +32,7 @@ public struct NFTModel: Codable, Identifiable, Hashable {
     }
 }
 
+/// Currencies.
 public enum BaseCurrency: String, Codable {
 	case dai = "DAI"
 	case eth = "ETH"
@@ -50,6 +52,7 @@ public enum BaseCurrency: String, Codable {
 public typealias NFTResponse = [NFTModel]
 
 
+/// Time range to select onChange.
 public enum NftTimeRange: String, Hashable {
 	case day = "day"
 	case week = "week"

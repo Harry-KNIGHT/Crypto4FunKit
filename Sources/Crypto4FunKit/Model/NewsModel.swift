@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// News model
 public struct NewsResponseElement: Hashable, Codable {
 	internal init(title: String, url: String, source: Source) {
 		self.title = title

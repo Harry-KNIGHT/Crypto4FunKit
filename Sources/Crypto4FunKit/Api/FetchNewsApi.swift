@@ -9,7 +9,9 @@ import Foundation
 
 @available(macOS 12.0, *)
 public struct NewsApi {
-	
+
+	/// Fetch news about cryptocurrencies.
+	/// - Returns: [NewsResponseElement]
 	public static func fetchNews() async throws -> [NewsResponseElement] {
 		let url = "https://cryptocurrency-news-tracker.herokuapp.com/news"
 

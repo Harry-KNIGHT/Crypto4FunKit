@@ -10,6 +10,9 @@ import Foundation
 @available(macOS 12.0, *)
 public struct FetchNftApi {
 
+	/// Fetch data about NFTs
+	/// - Parameter timeRange: day, week, month or all.
+	/// - Returns: [NFTModel]
 	public static func fetchNFT(_ timeRange: NftTimeRange) async throws -> [NFTModel]  {
 		let url = "https://api.cryptoslam.io/v1/collections/top-100?timeRange=\(timeRange.rawValue)"
 

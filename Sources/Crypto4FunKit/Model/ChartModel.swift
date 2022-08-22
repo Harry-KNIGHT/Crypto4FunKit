@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Crypto chart model.
 public struct CurrencyChartResponse: Codable {
 	internal init(prices: [[Double]], marketCaps: [[Double]], totalVolumes: [[Double]]) {
 		self.prices = prices
@@ -22,6 +23,7 @@ public struct CurrencyChartResponse: Codable {
 	}
 }
 
+/// Time to show in days.
 public enum TimeToShow: String, CaseIterable, Identifiable {
 	case yearly = "365"
 	case weekly = "7"
@@ -30,6 +32,7 @@ public enum TimeToShow: String, CaseIterable, Identifiable {
 	public var id: Self { self }
 }
 
+/// Epoch unix time for choose time range to show in chart.
 public enum EpochUnixTime: String, CaseIterable {
 	case day = "86400"
 	case week = "604800"

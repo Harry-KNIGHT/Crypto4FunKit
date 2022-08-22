@@ -6,10 +6,8 @@
 //
 
 import Foundation
-/*
- Documentation: https://docs.bitfine.com/reference/rest-public-tickers
- */
 
+/// CryptoCurrencyModel for crypto data.
 public struct CryptoCurrencyModel: Codable, Hashable {
 	internal init(id: String, name: String, image: String, currentPrice: Double, priceChangePercentage24h: Float) {
 		self.id = id
