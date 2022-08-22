@@ -23,15 +23,6 @@ public struct CurrencyChartResponse: Codable {
 	}
 }
 
-/// Time to show in days.
-public enum TimeToShow: String, CaseIterable, Identifiable {
-	case yearly = "365"
-	case weekly = "7"
-	case monthly = "31"
-	case max = "10_000"
-	public var id: Self { self }
-}
-
 /// Epoch unix time for choose time range to show in chart.
 public enum EpochUnixTime: String, CaseIterable {
 	case day = "86400"
