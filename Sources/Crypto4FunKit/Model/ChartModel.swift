@@ -30,7 +30,7 @@ public enum EpochUnixTime: Double, CaseIterable {
 	case month = 2419200
 	case year = 29030400
 	case max = 145152000
-	var name: String {
+	public var name: String {
 		switch self {
 		case .day:
 			return "Day"
