@@ -24,11 +24,24 @@ public struct CurrencyChartModel: Codable {
 }
 
 /// Epoch unix time for choose time range to show in chart.
-public enum EpochUnixTime: String, CaseIterable {
-	case day = "86400"
-	case week = "604800"
-	case month = "2419200"
-	case year = "29030400"
-	case max = "145152000"
-
+public enum EpochUnixTime: Double, CaseIterable {
+	case day = 86400
+	case week = 604800
+	case month = 2419200
+	case year = 29030400
+	case max = 145152000
+	var name: String {
+		switch self {
+		case .day:
+			return "Day"
+		case .week:
+			return "Week"
+		case .month:
+			return "Month"
+		case .year:
+			return "Year"
+		case .max:
+			return "Max"
+		}
+	}
 }

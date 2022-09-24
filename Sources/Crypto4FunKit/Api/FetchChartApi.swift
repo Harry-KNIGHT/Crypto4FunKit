@@ -18,7 +18,7 @@ public struct ChartApi {
 	///   - today: Today date for chart time range in Epoch format
 	/// - Returns: CurrencyChartResponse
 	public static func fetchChart(_ id: String, from firstDate: Double, to today: Double = Date().timeIntervalSince1970) async throws -> CurrencyChartModel {
-		let url = "https://api.coingecko.com/api/v3/coins/\(id)/market_chart/range?vs_currency=usd&from=\(firstDate)&to=\(today)"
+		let url = "https://api.coingecko.com/api/v3/coins/\(id)/market_chart/range?vs_currency=usd&from=\(String(firstDate))&to=\(String(today))"
 
 		guard let url = URL(string: url) else {
 			throw ApiError.urlNotFound
