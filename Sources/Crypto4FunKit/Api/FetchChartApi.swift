@@ -26,7 +26,7 @@ public struct ChartApi {
 
 		let (data, response) = try await URLSession.shared.data(from: url)
 
-		guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 else {
+		guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode >= 200 && httpResponse.statusCode < 300 else {
 			print(response)
 			throw ApiError.outOfBounds
 		}
