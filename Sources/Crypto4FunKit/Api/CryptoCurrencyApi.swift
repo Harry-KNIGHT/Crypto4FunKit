@@ -12,6 +12,8 @@ public enum ApiError: Error {
 }
 
 @available(macOS 12.0, *)
+@available(watchOS 6.0.0, *)
+
 public struct CryptoApi {
 
 	/// Fetch 100 cryptocurrencies

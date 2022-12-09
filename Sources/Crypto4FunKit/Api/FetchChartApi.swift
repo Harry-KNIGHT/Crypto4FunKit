@@ -9,6 +9,8 @@ import Foundation
 
 
 @available(macOS 12.0, *)
+@available(watchOS 6.0.0, *)
+
 public struct ChartApi {
 
 	/// Fetch chart data from cryptocurrency id & time range.
